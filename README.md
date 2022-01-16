@@ -1,12 +1,38 @@
 # Awesome Data Valuation
 
-💹 A curated list of data valuation papers to design your next data marketplace 
+💱 A curated list of data valuation to design your next data marketplace 
 
 ## Measuring importance of data points
 
 ### Data Shapley
 
-#### Efficient solutions
+[Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019
+
+```
+@inproceedings{jia2019towards,
+  title={Towards efficient data valuation based on the shapley value},
+  author={Jia, Ruoxi and Dao, David and Wang, Boxin and Hubis, Frances Ann and Hynes, Nick and G{\"u}rel, Nezihe Merve and Li, Bo and Zhang, Ce and Song, Dawn and Spanos, Costas J},
+  booktitle={The 22nd International Conference on Artificial Intelligence and Statistics},
+  pages={1167--1176},
+  year={2019},
+  organization={PMLR}
+}
+```
+
+[Data Shapley: Equitable Valuation of Data for Machine Learning](http://proceedings.mlr.press/v97/ghorbani19c.html), Amirata Ghorbani, James Zou, 2019
+
+```
+@inproceedings{ghorbani2019data,
+  title={Data shapley: Equitable valuation of data for machine learning},
+  author={Ghorbani, Amirata and Zou, James},
+  booktitle={International Conference on Machine Learning},
+  pages={2242--2251},
+  year={2019},
+  organization={PMLR}
+}
+```
+
+#### Efficient algorithms
 
 [Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2018
 ```
@@ -25,10 +51,22 @@
 
 ### Criticism & Inspiration
 
+[Shapley values for feature selection: The good, the bad, and the axioms](https://arxiv.org/abs/2102.10936), Daniel Fryer, Inga Strümke, Hien Nguyen, 2021
 
-## Design of data marketplaces
+```
+@misc{fryer2021shapley,
+      title={Shapley values for feature selection: The good, the bad, and the axioms}, 
+      author={Daniel Fryer and Inga Strümke and Hien Nguyen},
+      year={2021},
+      eprint={2102.10936},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
-### Data market systems
+## Designing data marketplaces
+
+### General data market systems
 
 [A Marketplace for Data: An Algorithmic Solution](https://arxiv.org/abs/1805.08125), Anish Agarwal, Munther Dahleh, Tuhin Sarkar, 2019
 
@@ -42,7 +80,7 @@
 }
 ```
 
-[A demonstration of sterling: a privacy-preserving data marketplace](http://www.vldb.org/pvldb/vol11/p2086-hynes.pdf), Nick Hynes, David Dao, David Yan, Raymond Cheng, Dawn Song
+[A demonstration of sterling: a privacy-preserving data marketplace](http://www.vldb.org/pvldb/vol11/p2086-hynes.pdf), Nick Hynes, David Dao, David Yan, Raymond Cheng, Dawn Song, 2018
 
 ```
 @article{hynes2018demonstration,
@@ -54,6 +92,36 @@
   year={2018}
 }
 ```
+
+[DataBright: Towards a Global Exchange for Decentralized Data Ownership and Trusted Computation](https://arxiv.org/abs/1802.04780), David Dao, Dan Alistarh, Claudiu Musat, Ce Zhang, 2018
+
+```
+@article{dao2018databright,
+  title={Databright: Towards a global exchange for decentralized data ownership and trusted computation},
+  author={Dao, David and Alistarh, Dan and Musat, Claudiu and Zhang, Ce},
+  journal={arXiv preprint arXiv:1802.04780},
+  year={2018}
+}
+```
+### Automatic data compliance
+
+[Data Capsule: A New Paradigm for Automatic Compliance with Data Privacy Regulations
+](https://arxiv.org/abs/1909.00077), Lun Wang, Joseph P. Near, Neel Somani, Peng Gao, Andrew Low, David Dao, Dawn Song, 2019
+
+```
+@misc{wang2019data,
+      title={Data Capsule: A New Paradigm for Automatic Compliance with Data Privacy Regulations}, 
+      author={Lun Wang and Joseph P. Near and Neel Somani and Peng Gao and Andrew Low and David Dao and Dawn Song},
+      year={2019},
+      eprint={1909.00077},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY}
+}
+```
+
+
+
+## Data markets and society
 
 ### Economics of Data
 
