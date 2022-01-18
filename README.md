@@ -1,5 +1,7 @@
 # Awesome Data Valuation
 
+<img src="https://imgur.com/wkCjCds.png" alt="data market problem" width="400"/>
+
 💱 A curated list of data valuation (DV) to design your next data marketplace. DV aims to understand the value of a data point for a given machine learning task and is an essential primitive in the design of data marketplaces and explainable AI.
 
 ### Legend
