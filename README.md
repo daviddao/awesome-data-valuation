@@ -1,8 +1,14 @@
 # Awesome Data Valuation
 
-💱 A curated list of data valuation to design your next data marketplace 
+💱 A curated list of data valuation (DV) to design your next data marketplace. DV aims to understand the value of a data point for a given machine learning task and is an essential primitive in the design of data marketplaces and explainable AI.
 
-## Measuring importance of data points
+### Legend
+💻 Code available
+
+🎥 Talk / Slides
+
+
+## What is your data worth?
 
 ### Data Shapley
 
@@ -19,7 +25,7 @@
 }
 ```
 
-[Data Shapley: Equitable Valuation of Data for Machine Learning](http://proceedings.mlr.press/v97/ghorbani19c.html), Amirata Ghorbani, James Zou, 2019
+[Data Shapley: Equitable Valuation of Data for Machine Learning](http://proceedings.mlr.press/v97/ghorbani19c.html), Amirata Ghorbani, James Zou, 2019, [💻](https://github.com/amiratag/DataShapley)
 
 ```
 @inproceedings{ghorbani2019data,
@@ -32,9 +38,31 @@
 }
 ```
 
+[A Distributional Framework for Data Valuation](https://arxiv.org/abs/2002.12334), Amirata Ghorbani, Michael P. Kim, James Zou, 2020, [💻](https://github.com/amiratag/DistributionalShapley)
+
+```
+@inproceedings{ghorbani2020distributional,
+  title={A Distributional Framework for Data Valuation},
+  author={Ghorbani, Amirata, P. Kim, Michael and Zou, James},
+  booktitle={International Conference on Machine Learning},
+  year={2020}
+}
+```
+
+[Beta Shapley: a Unified and Noise-reduced Data Valuation Framework for Machine Learning](https://arxiv.org/abs/2110.14049), Yongchan Kwon, James Zou, 2021
+
+```
+@article{kwon2021beta,
+  title={Beta Shapley: a Unified and Noise-reduced Data Valuation Framework for Machine Learning},
+  author={Kwon, Yongchan and Zou, James},
+  journal={arXiv preprint arXiv:2110.14049},
+  year={2021}
+}
+```
+
 #### Efficient algorithms
 
-[Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2018
+[Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2018, [💻](https://github.com/easeml/datascope)
 ```
 @article{jia12efficient,
   title={Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms},
@@ -45,11 +73,33 @@
 }
 ```
 
-### Leave-One-Out
+[Efficient computation and analysis of distributional Shapley values](https://arxiv.org/abs/2007.01357), Yongchan Kwon, Manuel A. Rivas, James Zou, 2021, [💻](https://github.com/ykwon0407/fast_dist_shapley)
 
-### Influence functions
+```
+@inproceedings{kwon2021efficient,
+  title={Efficient computation and analysis of distributional Shapley values},
+  author={Kwon, Yongchan and Rivas, Manuel A and Zou, James},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={793--801},
+  year={2021},
+  organization={PMLR}
+}
+```
 
-### Criticism & Inspiration
+#### Benchmarks, Criticism & Relaxations
+
+[Scalability vs. Utility: Do We Have to Sacrifice One for the Other in Data Importance Quantification?](https://arxiv.org/abs/1911.07128), Ruoxi Jia, Fan Wu, Xuehui Sun, Jiacen Xu, David Dao, Bhavya Kailkhura, Ce Zhang, Bo Li, Dawn Song, 2021, [💻](https://github.com/AI-secure/Shapley-Study)
+
+```
+@misc{jia2021scalability,
+      title={Scalability vs. Utility: Do We Have to Sacrifice One for the Other in Data Importance Quantification?}, 
+      author={Ruoxi Jia and Fan Wu and Xuehui Sun and Jiacen Xu and David Dao and Bhavya Kailkhura and Ce Zhang and Bo Li and Dawn Song},
+      year={2021},
+      eprint={1911.07128},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 [Shapley values for feature selection: The good, the bad, and the axioms](https://arxiv.org/abs/2102.10936), Daniel Fryer, Inga Strümke, Hien Nguyen, 2021
 
@@ -61,6 +111,32 @@
       eprint={2102.10936},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
+}
+```
+
+### Influence functions & LOO
+
+[Understanding Black-box Predictions via Influence Functions](http://proceedings.mlr.press/v70/koh17a), Pang Wei Koh, Percy Liang, 2017, [💻](https://bit.ly/gt-influence), [🎥](https://drive.google.com/open?id=1ZLY_9Wsk9MA0kXAoJDd6o1gbLvHhyPAn)
+
+```
+@inproceedings{koh2017understanding,
+  title={Understanding black-box predictions via influence functions},
+  author={Koh, Pang Wei and Liang, Percy},
+  booktitle={International Conference on Machine Learning},
+  pages={1885--1894},
+  year={2017},
+  organization={PMLR}
+}
+```
+
+[On the accuracy of influence functions for measuring group effects](https://arxiv.org/abs/1905.13289), Pang Wei Koh*, Kai-Siang Ang*, Hubert H. K. Teo*, and Percy Liang, 2019, [💻](https://github.com/kohpangwei/group-influence-release), [🎥](https://drive.google.com/open?id=1ZLY_9Wsk9MA0kXAoJDd6o1gbLvHhyPAn)
+
+```
+@article{koh2019accuracy,
+  title={On the accuracy of influence functions for measuring group effects},
+  author={Koh, Pang Wei and Ang, Kai-Siang and Teo, Hubert HK and Liang, Percy},
+  journal={arXiv preprint arXiv:1905.13289},
+  year={2019}
 }
 ```
 
@@ -119,6 +195,36 @@
 }
 ```
 
+### Data valuation applications
+
+[A Principled Approach to Data Valuation for Federated Learning](https://arxiv.org/abs/2009.06192), Tianhao Wang, Johannes Rausch, Ce Zhang, Ruoxi Jia, Dawn Song, 2020
+
+```
+@misc{wang2020principled,
+      title={A Principled Approach to Data Valuation for Federated Learning}, 
+      author={Tianhao Wang and Johannes Rausch and Ce Zhang and Ruoxi Jia and Dawn Song},
+      year={2020},
+      eprint={2009.06192},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+[Data valuation for medical imaging using Shapley value and application to a large-scale chest X-ray dataset
+](https://www.nature.com/articles/s41598-021-87762-2), Siyi Tang, Amirata Ghorbani, Rikiya Yamashita, Sameer Rehman, Jared A Dunnmon, James Zou, Daniel L Rubin, 2021
+
+```
+@article{tang2021data,
+  title={Data valuation for medical imaging using Shapley value and application to a large-scale chest X-ray dataset},
+  author={Tang, Siyi and Ghorbani, Amirata and Yamashita, Rikiya and Rehman, Sameer and Dunnmon, Jared A and Zou, James and Rubin, Daniel L},
+  journal={Scientific reports},
+  volume={11},
+  number={1},
+  pages={1--9},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
+```
 
 
 ## Data markets and society
