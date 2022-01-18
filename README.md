@@ -12,7 +12,7 @@
 
 ### Data Shapley
 
-[Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019
+[Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019, [💻](https://github.com/sunblaze-ucb/data-valuation)
 
 ```
 @inproceedings{jia2019towards,
@@ -182,7 +182,7 @@
 ### Automatic data compliance
 
 [Data Capsule: A New Paradigm for Automatic Compliance with Data Privacy Regulations
-](https://arxiv.org/abs/1909.00077), Lun Wang, Joseph P. Near, Neel Somani, Peng Gao, Andrew Low, David Dao, Dawn Song, 2019
+](https://arxiv.org/abs/1909.00077), Lun Wang, Joseph P. Near, Neel Somani, Peng Gao, Andrew Low, David Dao, Dawn Song, 2019, [💻](https://github.com/sunblaze-ucb/Data-Capsule)
 
 ```
 @misc{wang2019data,
