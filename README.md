@@ -207,6 +207,19 @@
 }
 ```
 
+[Computing a Data Dividend](https://arxiv.org/abs/1905.01805), Eric Bax, 2019
+
+```
+@misc{bax2019computing,
+      title={Computing a Data Dividend}, 
+      author={Eric Bax},
+      year={2019},
+      eprint={1905.01805},
+      archivePrefix={arXiv},
+      primaryClass={cs.GT}
+}
+```
+
 [Incentivizing Collaboration in Machine Learning via Synthetic Data Rewards](https://arxiv.org/pdf/2112.09327.pdf), Sebastian Shenghong Tay, Xinyi Xu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021
 
 ```
