@@ -51,6 +51,31 @@
 }
 ```
 
+[Collaborative Machine Learning with Incentive-Aware Model Rewards](https://arxiv.org/abs/2010.12797), Rachael Hwee Ling Sim, Yehong Zhang, Mun Choon Chan, Bryan Kian Hsiang Low, 2020
+
+```
+@inproceedings{sim2020collaborative,
+  title={Collaborative machine learning with incentive-aware model rewards},
+  author={Sim, Rachael Hwee Ling and Zhang, Yehong and Chan, Mun Choon and Low, Bryan Kian Hsiang},
+  booktitle={International Conference on Machine Learning},
+  pages={8927--8936},
+  year={2020},
+  organization={PMLR}
+}
+```
+
+[Validation free and replication robust volume-based data valuation](https://proceedings.neurips.cc/paper/2021/hash/59a3adea76fadcb6dd9e54c96fc155d1-Abstract.html), Xinyi Xu, Zhaoxuan Wu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021 [💻](https://github.com/ZhaoxuanWu/VolumeBased-DataValuation)
+
+```
+@article{xu2021validation,
+  title={Validation free and replication robust volume-based data valuation},
+  author={Xu, Xinyi and Wu, Zhaoxuan and Foo, Chuan Sheng and Low, Bryan Kian Hsiang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  year={2021}
+}
+```
+
 [Beta Shapley: a Unified and Noise-reduced Data Valuation Framework for Machine Learning](https://arxiv.org/abs/2110.14049), Yongchan Kwon, James Zou, 2021
 
 ```
@@ -144,19 +169,7 @@
 
 ## Designing data marketplaces
 
-### General data market systems
-
-[A Marketplace for Data: An Algorithmic Solution](https://arxiv.org/abs/1805.08125), Anish Agarwal, Munther Dahleh, Tuhin Sarkar, 2019
-
-```
-@inproceedings{agarwal2019marketplace,
-  title={A marketplace for data: An algorithmic solution},
-  author={Agarwal, Anish and Dahleh, Munther and Sarkar, Tuhin},
-  booktitle={Proceedings of the 2019 ACM Conference on Economics and Computation},
-  pages={701--726},
-  year={2019}
-}
-```
+### Data market system designs
 
 [A demonstration of sterling: a privacy-preserving data marketplace](http://www.vldb.org/pvldb/vol11/p2086-hynes.pdf), Nick Hynes, David Dao, David Yan, Raymond Cheng, Dawn Song, 2018
 
@@ -181,6 +194,30 @@
   year={2018}
 }
 ```
+
+[A Marketplace for Data: An Algorithmic Solution](https://arxiv.org/abs/1805.08125), Anish Agarwal, Munther Dahleh, Tuhin Sarkar, 2019
+
+```
+@inproceedings{agarwal2019marketplace,
+  title={A marketplace for data: An algorithmic solution},
+  author={Agarwal, Anish and Dahleh, Munther and Sarkar, Tuhin},
+  booktitle={Proceedings of the 2019 ACM Conference on Economics and Computation},
+  pages={701--726},
+  year={2019}
+}
+```
+
+[Incentivizing Collaboration in Machine Learning via Synthetic Data Rewards](https://arxiv.org/pdf/2112.09327.pdf), Sebastian Shenghong Tay, Xinyi Xu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021
+
+```
+@article{tay2021incentivizing,
+  title={Incentivizing Collaboration in Machine Learning via Synthetic Data Rewards},
+  author={Tay, Sebastian Shenghong and Xu, Xinyi and Foo, Chuan Sheng and Low, Bryan Kian Hsiang},
+  journal={arXiv preprint arXiv:2112.09327},
+  year={2021}
+}
+```
+
 ### Automatic data compliance
 
 [Data Capsule: A New Paradigm for Automatic Compliance with Data Privacy Regulations
