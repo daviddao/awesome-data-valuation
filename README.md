@@ -12,7 +12,7 @@
 
 ## What is your data worth?
 
-### Data Shapley
+### Shapley Value & Cooperative Game Theory
 
 [Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019, [💻](https://github.com/sunblaze-ucb/data-valuation)
 
@@ -176,6 +176,18 @@
   author={Koh, Pang Wei and Ang, Kai-Siang and Teo, Hubert HK and Liang, Percy},
   journal={arXiv preprint arXiv:1905.13289},
   year={2019}
+}
+```
+
+### Reinforcement Learning
+
+[Data Valuation using Reinforcement Learning](https://proceedings.mlr.press/v119/yoon20a.html), Jinsung Yoon Sercan Arik Tomas Pfister, 2020, [💻](https://github.com/google-research/google-research/tree/master/dvrl), [🎥](https://icml.cc/media/icml-2020/Slides/6276.pdf)
+
+```
+@inproceedings{49189,
+title	= {Data Valuation using Reinforcement Learning},
+author	= {Jinsung Yoon and Sercan Arik and Tomas Pfister},
+year	= {2020}
 }
 ```
 
