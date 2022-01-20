@@ -51,6 +51,18 @@
 }
 ```
 
+[Asymmetric Shapley values: incorporating causal knowledge into model-agnostic explainability](https://proceedings.neurips.cc//paper/2020/hash/0d770c496aa3da6d2c3f2bd19e7b9d6b-Abstract.html), Christopher Frye, Colin Rowat, Ilya Feige, 2020, [🎥](https://www.youtube.com/watch?v=7d13f4UaAn0)
+
+```
+@article{frye2020asymmetric,
+  title={Asymmetric Shapley values: incorporating causal knowledge into model-agnostic explainability},
+  author={Frye, Christopher and Rowat, Colin and Feige, Ilya},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
+```
+
 [Collaborative Machine Learning with Incentive-Aware Model Rewards](https://arxiv.org/abs/2010.12797), Rachael Hwee Ling Sim, Yehong Zhang, Mun Choon Chan, Bryan Kian Hsiang Low, 2020
 
 ```
