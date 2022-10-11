@@ -101,7 +101,13 @@
  
 </details>
 
-[Validation free and replication robust volume-based data valuation](https://proceedings.neurips.cc/paper/2021/hash/59a3adea76fadcb6dd9e54c96fc155d1-Abstract.html), Xinyi Xu, Zhaoxuan Wu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021 [💻](https://github.com/ZhaoxuanWu/VolumeBased-DataValuation)
+[Validation free and replication robust volume-based data valuation](https://proceedings.neurips.cc/paper/2021/hash/59a3adea76fadcb6dd9e54c96fc155d1-Abstract.html), Xinyi Xu, Zhaoxuan Wu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021, [💻](https://github.com/ZhaoxuanWu/VolumeBased-DataValuation)
+
+<details>
+<summary>Summary</summary>
+Xu et al. (2021) propose using data diversity via robust volume for measuring the value of data. This removes the need for a validation set and allows for guarantees on replication robustness but suffers from the curse of dimensionality and may ignore useful information in the validation set.
+
+</details>
 
 <details>
   <summary>Bibtex</summary>
@@ -132,6 +138,30 @@
 }
 ```
  
+</details>
+
+[Gradient-Driven Rewards to Guarantee Fairness in Collaborative Machine Learning](https://proceedings.neurips.cc/paper/2021/hash/8682cc30db9c025ecd3fee433f8ab54c-Abstract.html), Xinyi Xu, Lingjuan Lyu, Xingjun Ma, Chenglin Miao, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021
+
+<details>
+<summary>Summary</summary>
+Xu et al. (2021) propose cosine gradient Shapley value to fairly evaluate the expected contribution of each agent's update in the federated learning setting removing the need for an auxiliary validation dataset. They further introduce a novel training-time gradient reward mechanism with a fairness guarantee.
+
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@article{xu2021gradient,
+  title={Gradient driven rewards to guarantee fairness in collaborative machine learning},
+  author={Xu, Xinyi and Lyu, Lingjuan and Ma, Xingjun and Miao, Chenglin and Foo, Chuan Sheng and Low, Bryan Kian Hsiang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={16104--16117},
+  year={2021}
+}
+```
+
 </details>
 
 #### Efficient algorithms
@@ -261,6 +291,57 @@ year	= {2020}
 ```
  
 </details>
+
+### Deep Neural Networks
+
+[DAVINZ: Data Valuation using Deep Neural Networks at Initialization](https://proceedings.mlr.press/v162/wu22j.html), Zhaoxuan Wu, Yao Shu, Bryan Kian Hsiang Low, 2022, [🎥](https://icml.cc/media/icml-2022/Slides/17500.pdf)
+
+<details>
+<summary>Summary</summary>
+Wu et al. (2022) introduce a validation-based and training-free method for efficient data valuation with large and complex deep neural networks (DNNs). They derive and exploit a domain-aware generalization bound for DNNs to characterize their performance without training and uses this bound as the scoring function while keeping conventional techniques such as Shapley values as the valuation function.
+
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{wu2022davinz,
+  title={DAVINZ: Data Valuation using Deep Neural Networks at Initialization},
+  author={Wu, Zhaoxuan and Shu, Yao and Low, Bryan Kian Hsiang},
+  booktitle={International Conference on Machine Learning},
+  pages={24150--24176},
+  year={2022},
+  organization={PMLR}
+}
+```
+ 
+</details>
+
+### Surveys
+
+[Data Valuation in Machine Learning: “Ingredients”, Strategies, and Open Challenges](https://www.ijcai.org/proceedings/2022/782), Rachael Hwee Ling Sim*, Xinyi Xu*, Bryan Kian Hsiang Low, 2022, [🎥](https://xinyi-xu.com/ijcai_slides.pdf)
+
+<details>
+<summary>Summary</summary>
+Sim et al. (2022) present a technical survey of data valuation and its "ingredients" and properties. The paper outlines common desiderata as well as some open research challenges.
+
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{sim2022data,
+  title={Data valuation in machine learning:“ingredients”, strategies, and open challenges},
+  author={Sim, Rachael Hwee Ling and Xu, Xinyi and Low, Bryan Kian Hsiang},
+  booktitle={Proc. IJCAI},
+  year={2022}
+}
+```
+ 
+</details>
+
 
 ## Designing data marketplaces
 
@@ -484,4 +565,54 @@ URL = {https://www.aeaweb.org/articles?id=10.1257/pandp.20181003}}
 </details>
 
 
+## Strategic adaptation
 
+### Performative prediction
+
+[Performative Prediction](https://proceedings.mlr.press/v119/perdomo20a.html), Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner, Moritz Hardt, 2020
+
+<details>
+<summary>Summary</summary>
+Perdomo et al. (2020) introduce the concept of "performative prediction" dealing with predictions that influence the target they aim to predict, e.g. through taking actions based on the predictions, causing a distribution shift. The authors develop a risk minimization framework for performative prediction and introduce the equilibrium notion of performative stability where predictions are calibrated against future outcomes that manifest from acting on the prediction.
+
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{perdomo2020performative,
+  title={Performative prediction},
+  author={Perdomo, Juan and Zrnic, Tijana and Mendler-D{\"u}nner, Celestine and Hardt, Moritz},
+  booktitle={International Conference on Machine Learning},
+  pages={7599--7609},
+  year={2020},
+  organization={PMLR}
+}
+```
+
+</details>
+
+[Stochastic Optimization for Performative Prediction](https://papers.nips.cc/paper/2020/hash/33e75ff09dd601bbe69f351039152189-Abstract.html), Celestine Mendler-Dünner, Juan Perdomo, Tijana Zrnic, Moritz Hardt, 2020
+
+<details>
+<summary>Summary</summary>
+Mendler-Dünner et al. (2020) look at stochastic optimization for performative prediction and prove convergence rates for greedily deploying models after each stochastic update (which may cause distribution shift affecting convergence to a stability point) or lazily deploying the model after several updates.
+
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@article{mendler2020stochastic,
+  title={Stochastic optimization for performative prediction},
+  author={Mendler-D{\"u}nner, Celestine and Perdomo, Juan and Zrnic, Tijana and Hardt, Moritz},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={4929--4939},
+  year={2020}
+}
+```
+
+</details>
