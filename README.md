@@ -63,6 +63,11 @@ Ghorbani & Zou (2019) introduce (data) Shapley value to equitably measure the va
 [A Distributional Framework for Data Valuation](https://arxiv.org/abs/2002.12334), Amirata Ghorbani, Michael P. Kim, James Zou, 2020, [💻](https://github.com/amiratag/DistributionalShapley)
 
 <details>
+  <summary>Summary</summary>
+Ghorbani et al. (2020) formulate the Shapley value as a distributional quantity in the context of an underlying data distribution instead of a fixed dataset. They further introduce a novel sampling-based algorithm for the distributional Shapley value with strong approximation guarantees.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
