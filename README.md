@@ -17,6 +17,12 @@
 [Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019, [💻](https://github.com/sunblaze-ucb/data-valuation)
 
 <details>
+<summary>Summary</summary>
+Jia et al. (2019) contribute theoretical and practical results for efficient methods for approximating the Shapley value (SV). They show that methods with a sublinear amount of model evaluations are possible and further reductions can be made for sparse SVs. Lastly, they introduce two practical SV estimation methods for ML tasks, one for uniformly stable learning algorithms and one for smooth loss functions.
+
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
 ```
