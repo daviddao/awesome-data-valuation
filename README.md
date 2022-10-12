@@ -84,6 +84,11 @@ Ghorbani et al. (2020) formulate the Shapley value as a distributional quantity 
 [Asymmetric Shapley values: incorporating causal knowledge into model-agnostic explainability](https://proceedings.neurips.cc//paper/2020/hash/0d770c496aa3da6d2c3f2bd19e7b9d6b-Abstract.html), Christopher Frye, Colin Rowat, Ilya Feige, 2020, [🎥](https://www.youtube.com/watch?v=7d13f4UaAn0)
 
 <details>
+  <summary>Summary</summary>
+Frye et al. (2020) incorporate causality into the Shapley value framework. Importantly, their framework can handle any amount of causal knowledge and does not require the complete causal graph underlying the data.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
 ```
