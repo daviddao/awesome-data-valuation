@@ -616,3 +616,27 @@ Mendler-Dünner et al. (2020) look at stochastic optimization for performative p
 ```
 
 </details>
+
+[Strategic Classification is Causal Modeling in Disguise](http://proceedings.mlr.press/v119/miller20b), John Miller, Smitha Milli, Moritz Hardt, 2020
+
+<details>
+<summary>Summary</summary>
+Miller et al. (2020) argue that strategic classication involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation.
+
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{miller2020strategic,
+  title={Strategic classification is causal modeling in disguise},
+  author={Miller, John and Milli, Smitha and Hardt, Moritz},
+  booktitle={International Conference on Machine Learning},
+  pages={6917--6926},
+  year={2020},
+  organization={PMLR}
+}
+```
+
+</details>
