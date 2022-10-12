@@ -172,6 +172,27 @@ Xu et al. (2021) propose cosine gradient Shapley value to fairly evaluate the ex
 
 </details>
 
+[Improving Cooperative Game Theory-based Data Valuation via Data Utility Learning](https://arxiv.org/abs/2107.06336), Tianhao Wang, Yu Yang, Ruoxi Jia, 2022
+
+<details>
+  <summary>Summary</summary>
+Wang et al. (2022) propose a general framework to improve effectiveness of sampling-based Shapley value (SV) or Least core (LC) estimation heuristics. They propose learning to predict the performance of a learning algorithm (denoted data utility learning) and using this predictor to estimate learning performance without retraining for cheaper SV and LC estimation.
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@article{wang2021improving,
+  title={Improving cooperative game theory-based data valuation via data utility learning},
+  author={Wang, Tianhao and Yang, Yu and Jia, Ruoxi},
+  journal={arXiv preprint arXiv:2107.06336},
+  year={2021}
+}
+```
+
+</details>
+
 #### Efficient algorithms
 
 [Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2019, [💻](https://github.com/easeml/datascope)
