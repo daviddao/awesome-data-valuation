@@ -106,6 +106,11 @@ Frye et al. (2020) incorporate causality into the Shapley value framework. Impor
 [Collaborative Machine Learning with Incentive-Aware Model Rewards](https://arxiv.org/abs/2010.12797), Rachael Hwee Ling Sim, Yehong Zhang, Mun Choon Chan, Bryan Kian Hsiang Low, 2020
 
 <details>
+  <summary>Summary</summary>
+Sim et al. (2020) introduce a data valuation method with separate ML models as rewards based on the Shapley value and information gain on model parameters given its data. They further define several conditions for incentives such as Shapley fairness, stability, individual rationality, and group welfare, that are suitable for the freely replicable nature of their model reward scheme.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
