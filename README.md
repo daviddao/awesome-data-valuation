@@ -40,6 +40,11 @@ Jia et al. (2019) contribute theoretical and practical results for efficient met
 [Data Shapley: Equitable Valuation of Data for Machine Learning](http://proceedings.mlr.press/v97/ghorbani19c.html), Amirata Ghorbani, James Zou, 2019, [💻](https://github.com/amiratag/DataShapley)
 
 <details>
+  <summary>Summary</summary>
+Ghorbani & Zou (2019) introduce (data) Shapley value to equitably measure the value of each training point to a supervised learners performance. They further outline several benefits of the Shapley value, e.g. being able to capture outliers or inform what new data to acquire, as well as develop Monte Carlo and gradient-based methods for its efficient estimation.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
@@ -627,7 +632,7 @@ Mendler-Dünner et al. (2020) look at stochastic optimization for performative p
 
 <details>
   <summary>Summary</summary>
-Miller et al. (2020) argue that strategic classication involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation.
+Miller et al. (2020) argue that strategic classification involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation.
 </details>
 
 <details>
