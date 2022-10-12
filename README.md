@@ -17,9 +17,8 @@
 [Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019, [💻](https://github.com/sunblaze-ucb/data-valuation)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Jia et al. (2019) contribute theoretical and practical results for efficient methods for approximating the Shapley value (SV). They show that methods with a sublinear amount of model evaluations are possible and further reductions can be made for sparse SVs. Lastly, they introduce two practical SV estimation methods for ML tasks, one for uniformly stable learning algorithms and one for smooth loss functions.
-
 </details>
 
 <details>
@@ -110,9 +109,8 @@ Jia et al. (2019) contribute theoretical and practical results for efficient met
 [Validation free and replication robust volume-based data valuation](https://proceedings.neurips.cc/paper/2021/hash/59a3adea76fadcb6dd9e54c96fc155d1-Abstract.html), Xinyi Xu, Zhaoxuan Wu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021, [💻](https://github.com/ZhaoxuanWu/VolumeBased-DataValuation)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Xu et al. (2021) propose using data diversity via robust volume for measuring the value of data. This removes the need for a validation set and allows for guarantees on replication robustness but suffers from the curse of dimensionality and may ignore useful information in the validation set.
-
 </details>
 
 <details>
@@ -149,9 +147,8 @@ Xu et al. (2021) propose using data diversity via robust volume for measuring th
 [Gradient-Driven Rewards to Guarantee Fairness in Collaborative Machine Learning](https://proceedings.neurips.cc/paper/2021/hash/8682cc30db9c025ecd3fee433f8ab54c-Abstract.html), Xinyi Xu, Lingjuan Lyu, Xingjun Ma, Chenglin Miao, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Xu et al. (2021) propose cosine gradient Shapley value to fairly evaluate the expected contribution of each agent's update in the federated learning setting removing the need for an auxiliary validation dataset. They further introduce a novel training-time gradient reward mechanism with a fairness guarantee.
-
 </details>
 
 <details>
@@ -172,7 +169,12 @@ Xu et al. (2021) propose cosine gradient Shapley value to fairly evaluate the ex
 
 #### Efficient algorithms
 
-[Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2018, [💻](https://github.com/easeml/datascope)
+[Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2019, [💻](https://github.com/easeml/datascope)
+
+<details>
+  <summary>Summary</summary>
+Jia et al. (2019) present algorithms to compute the Shapley value exactly in quasi-linear time and approximations in sublinear time for k-nearest-neighbor models. They empirically evaluate their algorithms at scale and extend them to several other settings.
+</details>
 
 <details>
   <summary>Bibtex</summary>
@@ -303,9 +305,8 @@ year	= {2020}
 [DAVINZ: Data Valuation using Deep Neural Networks at Initialization](https://proceedings.mlr.press/v162/wu22j.html), Zhaoxuan Wu, Yao Shu, Bryan Kian Hsiang Low, 2022, [🎥](https://icml.cc/media/icml-2022/Slides/17500.pdf)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Wu et al. (2022) introduce a validation-based and training-free method for efficient data valuation with large and complex deep neural networks (DNNs). They derive and exploit a domain-aware generalization bound for DNNs to characterize their performance without training and uses this bound as the scoring function while keeping conventional techniques such as Shapley values as the valuation function.
-
 </details>
 
 <details>
@@ -329,9 +330,8 @@ Wu et al. (2022) introduce a validation-based and training-free method for effic
 [Data Valuation in Machine Learning: “Ingredients”, Strategies, and Open Challenges](https://www.ijcai.org/proceedings/2022/782), Rachael Hwee Ling Sim*, Xinyi Xu*, Bryan Kian Hsiang Low, 2022, [🎥](https://xinyi-xu.com/ijcai_slides.pdf)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Sim et al. (2022) present a technical survey of data valuation and its "ingredients" and properties. The paper outlines common desiderata as well as some open research challenges.
-
 </details>
 
 <details>
@@ -578,9 +578,8 @@ URL = {https://www.aeaweb.org/articles?id=10.1257/pandp.20181003}}
 [Performative Prediction](https://proceedings.mlr.press/v119/perdomo20a.html), Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner, Moritz Hardt, 2020
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Perdomo et al. (2020) introduce the concept of "performative prediction" dealing with predictions that influence the target they aim to predict, e.g. through taking actions based on the predictions, causing a distribution shift. The authors develop a risk minimization framework for performative prediction and introduce the equilibrium notion of performative stability where predictions are calibrated against future outcomes that manifest from acting on the prediction.
-
 </details>
 
 <details>
@@ -602,9 +601,8 @@ Perdomo et al. (2020) introduce the concept of "performative prediction" dealing
 [Stochastic Optimization for Performative Prediction](https://papers.nips.cc/paper/2020/hash/33e75ff09dd601bbe69f351039152189-Abstract.html), Celestine Mendler-Dünner, Juan Perdomo, Tijana Zrnic, Moritz Hardt, 2020
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Mendler-Dünner et al. (2020) look at stochastic optimization for performative prediction and prove convergence rates for greedily deploying models after each stochastic update (which may cause distribution shift affecting convergence to a stability point) or lazily deploying the model after several updates.
-
 </details>
 
 <details>
@@ -628,9 +626,8 @@ Mendler-Dünner et al. (2020) look at stochastic optimization for performative p
 [Strategic Classification is Causal Modeling in Disguise](http://proceedings.mlr.press/v119/miller20b), John Miller, Smitha Milli, Moritz Hardt, 2020
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Miller et al. (2020) argue that strategic classication involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation.
-
 </details>
 
 <details>
