@@ -617,6 +617,8 @@ Mendler-Dünner et al. (2020) look at stochastic optimization for performative p
 
 </details>
 
+### Strategic classification
+
 [Strategic Classification is Causal Modeling in Disguise](http://proceedings.mlr.press/v119/miller20b), John Miller, Smitha Milli, Moritz Hardt, 2020
 
 <details>
