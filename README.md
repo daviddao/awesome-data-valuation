@@ -288,6 +288,11 @@ Jia et al. (2021) perform a theoretical analysis on the differences between leav
 [Shapley values for feature selection: The good, the bad, and the axioms](https://arxiv.org/abs/2102.10936), Daniel Fryer, Inga Strümke, Hien Nguyen, 2021
 
 <details>
+  <summary>Summary</summary>
+Fryer et al. (2021) calls into question the appropriateness of using the Shapley value for feature selection and advise caution against the magical thinking that presenting its abstract general axioms as "favourable and fair" may introduce. They further point out that the four axioms of "efficiency", "null player", "symmetry", and "additivity" do not guarantee that the Shapley value is suited to feature selection and may sometimes even imply the opposite.
+</details>
+
+<details>
   <summary>Bibtex</summary>
  
   ```
