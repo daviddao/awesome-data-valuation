@@ -240,6 +240,12 @@ Jia et al. (2019) present algorithms to compute the Shapley value exactly in qua
 [Efficient computation and analysis of distributional Shapley values](https://arxiv.org/abs/2007.01357), Yongchan Kwon, Manuel A. Rivas, James Zou, 2021, [💻](https://github.com/ykwon0407/fast_dist_shapley)
 
 <details>
+  <summary>Summary</summary>
+Kwon et al. (2021) develop tractable analytic expressions for the distributional data Shapley value for linear regression, binary classification, and non-parametric density estimation as well as new efficient methods for its estimation.
+</details>
+
+
+<details>
   <summary>Bibtex</summary>
   
   ```
