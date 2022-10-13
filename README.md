@@ -313,6 +313,11 @@ Fryer et al. (2021) calls into question the appropriateness of using the Shapley
 [Understanding Black-box Predictions via Influence Functions](http://proceedings.mlr.press/v70/koh17a), Pang Wei Koh, Percy Liang, 2017, [💻](https://bit.ly/gt-influence), [🎥](https://drive.google.com/open?id=1ZLY_9Wsk9MA0kXAoJDd6o1gbLvHhyPAn)
 
 <details>
+  <summary>Summary</summary>
+Koh & Liang (2017) introduce the use of influence functions, a technique borrowed from robust statistics, to identify training points most responsible for a model's given prediction. They further develop a simple and efficient implementation of influence functions that scales to large ML settings.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
