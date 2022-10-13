@@ -151,6 +151,11 @@ Xu et al. (2021) propose using data diversity via robust volume for measuring th
 [Beta Shapley: a Unified and Noise-reduced Data Valuation Framework for Machine Learning](https://arxiv.org/abs/2110.14049), Yongchan Kwon, James Zou, 2021
 
 <details>
+  <summary>Summary</summary>
+Kwon & Zou (2022) introduce Beta Shapley, a generalization of Data Shapley by relaxing the efficiency axiom.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
