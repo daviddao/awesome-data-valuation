@@ -17,6 +17,11 @@
 [Towards Efficient Data Valuation Based on the Shapley Value](http://proceedings.mlr.press/v89/jia19a.html), Ruoxi Jia & David Dao, Boxin Wang, Frances Ann Hubis, Nick Hynes, Nezihe Merve Gürel, Bo Li, Ce Zhang, Dawn Song, Costas J. Spanos, 2019, [💻](https://github.com/sunblaze-ucb/data-valuation)
 
 <details>
+  <summary>Summary</summary>
+Jia et al. (2019) contribute theoretical and practical results for efficient methods for approximating the Shapley value (SV). They show that methods with a sublinear amount of model evaluations are possible and further reductions can be made for sparse SVs. Lastly, they introduce two practical SV estimation methods for ML tasks, one for uniformly stable learning algorithms and one for smooth loss functions.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
 ```
@@ -33,6 +38,11 @@
 </details>
 
 [Data Shapley: Equitable Valuation of Data for Machine Learning](http://proceedings.mlr.press/v97/ghorbani19c.html), Amirata Ghorbani, James Zou, 2019, [💻](https://github.com/amiratag/DataShapley)
+
+<details>
+  <summary>Summary</summary>
+Ghorbani & Zou (2019) introduce (data) Shapley value to equitably measure the value of each training point to a supervised learners performance. They further outline several benefits of the Shapley value, e.g. being able to capture outliers or inform what new data to acquire, as well as develop Monte Carlo and gradient-based methods for its efficient estimation.
+</details>
 
 <details>
   <summary>Bibtex</summary>
@@ -53,6 +63,11 @@
 [A Distributional Framework for Data Valuation](https://arxiv.org/abs/2002.12334), Amirata Ghorbani, Michael P. Kim, James Zou, 2020, [💻](https://github.com/amiratag/DistributionalShapley)
 
 <details>
+  <summary>Summary</summary>
+Ghorbani et al. (2020) formulate the Shapley value as a distributional quantity in the context of an underlying data distribution instead of a fixed dataset. They further introduce a novel sampling-based algorithm for the distributional Shapley value with strong approximation guarantees.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
@@ -67,6 +82,11 @@
 </details>
 
 [Asymmetric Shapley values: incorporating causal knowledge into model-agnostic explainability](https://proceedings.neurips.cc//paper/2020/hash/0d770c496aa3da6d2c3f2bd19e7b9d6b-Abstract.html), Christopher Frye, Colin Rowat, Ilya Feige, 2020, [🎥](https://www.youtube.com/watch?v=7d13f4UaAn0)
+
+<details>
+  <summary>Summary</summary>
+Frye et al. (2020) incorporate causality into the Shapley value framework. Importantly, their framework can handle any amount of causal knowledge and does not require the complete causal graph underlying the data.
+</details>
 
 <details>
   <summary>Bibtex</summary>
@@ -84,6 +104,11 @@
 </details>
 
 [Collaborative Machine Learning with Incentive-Aware Model Rewards](https://arxiv.org/abs/2010.12797), Rachael Hwee Ling Sim, Yehong Zhang, Mun Choon Chan, Bryan Kian Hsiang Low, 2020
+
+<details>
+  <summary>Summary</summary>
+Sim et al. (2020) introduce a data valuation method with separate ML models as rewards based on the Shapley value and information gain on model parameters given its data. They further define several conditions for incentives such as Shapley fairness, stability, individual rationality, and group welfare, that are suitable for the freely replicable nature of their model reward scheme.
+</details>
 
 <details>
   <summary>Bibtex</summary>
@@ -104,9 +129,8 @@
 [Validation free and replication robust volume-based data valuation](https://proceedings.neurips.cc/paper/2021/hash/59a3adea76fadcb6dd9e54c96fc155d1-Abstract.html), Xinyi Xu, Zhaoxuan Wu, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021, [💻](https://github.com/ZhaoxuanWu/VolumeBased-DataValuation)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Xu et al. (2021) propose using data diversity via robust volume for measuring the value of data. This removes the need for a validation set and allows for guarantees on replication robustness but suffers from the curse of dimensionality and may ignore useful information in the validation set.
-
 </details>
 
 <details>
@@ -127,6 +151,11 @@ Xu et al. (2021) propose using data diversity via robust volume for measuring th
 [Beta Shapley: a Unified and Noise-reduced Data Valuation Framework for Machine Learning](https://arxiv.org/abs/2110.14049), Yongchan Kwon, James Zou, 2021
 
 <details>
+  <summary>Summary</summary>
+Kwon & Zou (2022) introduce Beta Shapley, a generalization of Data Shapley by relaxing the efficiency axiom.
+</details>
+
+<details>
   <summary>Bibtex</summary>
   
   ```
@@ -143,9 +172,8 @@ Xu et al. (2021) propose using data diversity via robust volume for measuring th
 [Gradient-Driven Rewards to Guarantee Fairness in Collaborative Machine Learning](https://proceedings.neurips.cc/paper/2021/hash/8682cc30db9c025ecd3fee433f8ab54c-Abstract.html), Xinyi Xu, Lingjuan Lyu, Xingjun Ma, Chenglin Miao, Chuan Sheng Foo, Bryan Kian Hsiang Low, 2021
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Xu et al. (2021) propose cosine gradient Shapley value to fairly evaluate the expected contribution of each agent's update in the federated learning setting removing the need for an auxiliary validation dataset. They further introduce a novel training-time gradient reward mechanism with a fairness guarantee.
-
 </details>
 
 <details>
@@ -164,9 +192,35 @@ Xu et al. (2021) propose cosine gradient Shapley value to fairly evaluate the ex
 
 </details>
 
+[Improving Cooperative Game Theory-based Data Valuation via Data Utility Learning](https://arxiv.org/abs/2107.06336), Tianhao Wang, Yu Yang, Ruoxi Jia, 2022
+
+<details>
+  <summary>Summary</summary>
+Wang et al. (2022) propose a general framework to improve effectiveness of sampling-based Shapley value (SV) or Least core (LC) estimation heuristics. They propose learning to predict the performance of a learning algorithm (denoted data utility learning) and using this predictor to estimate learning performance without retraining for cheaper SV and LC estimation.
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@article{wang2021improving,
+  title={Improving cooperative game theory-based data valuation via data utility learning},
+  author={Wang, Tianhao and Yang, Yu and Jia, Ruoxi},
+  journal={arXiv preprint arXiv:2107.06336},
+  year={2021}
+}
+```
+
+</details>
+
 #### Efficient algorithms
 
-[Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2018, [💻](https://github.com/easeml/datascope)
+[Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619), Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song, 2019, [💻](https://github.com/easeml/datascope)
+
+<details>
+  <summary>Summary</summary>
+Jia et al. (2019) present algorithms to compute the Shapley value exactly in quasi-linear time and approximations in sublinear time for k-nearest-neighbor models. They empirically evaluate their algorithms at scale and extend them to several other settings.
+</details>
 
 <details>
   <summary>Bibtex</summary>
@@ -297,9 +351,8 @@ year	= {2020}
 [DAVINZ: Data Valuation using Deep Neural Networks at Initialization](https://proceedings.mlr.press/v162/wu22j.html), Zhaoxuan Wu, Yao Shu, Bryan Kian Hsiang Low, 2022, [🎥](https://icml.cc/media/icml-2022/Slides/17500.pdf)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Wu et al. (2022) introduce a validation-based and training-free method for efficient data valuation with large and complex deep neural networks (DNNs). They derive and exploit a domain-aware generalization bound for DNNs to characterize their performance without training and uses this bound as the scoring function while keeping conventional techniques such as Shapley values as the valuation function.
-
 </details>
 
 <details>
@@ -323,9 +376,8 @@ Wu et al. (2022) introduce a validation-based and training-free method for effic
 [Data Valuation in Machine Learning: “Ingredients”, Strategies, and Open Challenges](https://www.ijcai.org/proceedings/2022/782), Rachael Hwee Ling Sim*, Xinyi Xu*, Bryan Kian Hsiang Low, 2022, [🎥](https://xinyi-xu.com/ijcai_slides.pdf)
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Sim et al. (2022) present a technical survey of data valuation and its "ingredients" and properties. The paper outlines common desiderata as well as some open research challenges.
-
 </details>
 
 <details>
@@ -572,9 +624,8 @@ URL = {https://www.aeaweb.org/articles?id=10.1257/pandp.20181003}}
 [Performative Prediction](https://proceedings.mlr.press/v119/perdomo20a.html), Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner, Moritz Hardt, 2020
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Perdomo et al. (2020) introduce the concept of "performative prediction" dealing with predictions that influence the target they aim to predict, e.g. through taking actions based on the predictions, causing a distribution shift. The authors develop a risk minimization framework for performative prediction and introduce the equilibrium notion of performative stability where predictions are calibrated against future outcomes that manifest from acting on the prediction.
-
 </details>
 
 <details>
@@ -596,9 +647,8 @@ Perdomo et al. (2020) introduce the concept of "performative prediction" dealing
 [Stochastic Optimization for Performative Prediction](https://papers.nips.cc/paper/2020/hash/33e75ff09dd601bbe69f351039152189-Abstract.html), Celestine Mendler-Dünner, Juan Perdomo, Tijana Zrnic, Moritz Hardt, 2020
 
 <details>
-<summary>Summary</summary>
+  <summary>Summary</summary>
 Mendler-Dünner et al. (2020) look at stochastic optimization for performative prediction and prove convergence rates for greedily deploying models after each stochastic update (which may cause distribution shift affecting convergence to a stability point) or lazily deploying the model after several updates.
-
 </details>
 
 <details>
@@ -612,6 +662,54 @@ Mendler-Dünner et al. (2020) look at stochastic optimization for performative p
   volume={33},
   pages={4929--4939},
   year={2020}
+}
+```
+
+</details>
+
+### Strategic classification
+
+[Strategic Classification is Causal Modeling in Disguise](http://proceedings.mlr.press/v119/miller20b), John Miller, Smitha Milli, Moritz Hardt, 2020
+
+<details>
+  <summary>Summary</summary>
+Miller et al. (2020) argue that strategic classification involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation.
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{miller2020strategic,
+  title={Strategic classification is causal modeling in disguise},
+  author={Miller, John and Milli, Smitha and Hardt, Moritz},
+  booktitle={International Conference on Machine Learning},
+  pages={6917--6926},
+  year={2020},
+  organization={PMLR}
+}
+```
+
+</details>
+
+[Alternative Microfoundations for Strategic Classification](http://proceedings.mlr.press/v139/jagadeesan21a), Meena Jagadeesan, Celestine Mendler-Dünner, Moritz Hardt, 2021
+
+<details>
+  <summary>Summary</summary>
+Jagadeesan et al. (2021) show that standard microfoundations in strategic classification, that typically uses individual-level behaviour to deduce aggregate-level responses, can lead to degenerate behaviour in aggregate: discontinuities in the aggregate response, stable points ceasing to exist, and maximizing social burden. The authors introduce a noisy response model inspired by performative prediction that mitigates these limitations for binary classification.
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{jagadeesan2021alternative,
+  title={Alternative microfoundations for strategic classification},
+  author={Jagadeesan, Meena and Mendler-D{\"u}nner, Celestine and Hardt, Moritz},
+  booktitle={International Conference on Machine Learning},
+  pages={4687--4697},
+  year={2021},
+  organization={PMLR}
 }
 ```
 
