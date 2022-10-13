@@ -314,7 +314,7 @@ Fryer et al. (2021) calls into question the appropriateness of using the Shapley
 
 <details>
   <summary>Summary</summary>
-Koh & Liang (2017) introduce the use of influence functions, a technique borrowed from robust statistics, to identify training points most responsible for a model's given prediction. They further develop a simple and efficient implementation of influence functions that scales to large ML settings.
+Koh & Liang (2017) introduce the use of influence functions, a technique borrowed from robust statistics, to identify training points most responsible for a model's given prediction without needing to retrain. They further develop a simple and efficient implementation of influence functions that scales to large ML settings.
 </details>
 
 <details>
@@ -334,6 +334,11 @@ Koh & Liang (2017) introduce the use of influence functions, a technique borrowe
 </details>
 
 [On the accuracy of influence functions for measuring group effects](https://arxiv.org/abs/1905.13289), Pang Wei Koh*, Kai-Siang Ang*, Hubert H. K. Teo*, and Percy Liang, 2019, [💻](https://github.com/kohpangwei/group-influence-release), [🎥](https://drive.google.com/open?id=1ZLY_9Wsk9MA0kXAoJDd6o1gbLvHhyPAn)
+
+<details>
+  <summary>Summary</summary>
+Koh et al. (2019) study influence functions to measure effects of large groups of training points instead of individual points. They empirically find a correlation and often underestimation between predicted and actual effects and theoretically show that this need not hold in general, realistic settings.
+</details>
 
 <details>
   <summary>Bibtex</summary>
