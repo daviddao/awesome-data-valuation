@@ -686,3 +686,26 @@ Miller et al. (2020) argue that strategic classification involves causal modelli
 ```
 
 </details>
+
+[Alternative Microfoundations for Strategic Classification](http://proceedings.mlr.press/v139/jagadeesan21a), Meena Jagadeesan, Celestine Mendler-Dünner, Moritz Hardt, 2021
+
+<details>
+  <summary>Summary</summary>
+Jagadeesan et al. (2021) show that standard microfoundations in strategic classification, that typically uses individual-level behaviour to deduce aggregate-level responses, can lead to degenerate behaviour in aggregate: discontinuities in the aggregate response, stable points ceasing to exist, and maximizing social burden. The authors introduce a noisy response model inspired by performative prediction that mitigates these limitations for binary classification.
+</details>
+
+<details>
+  <summary>Bibtex</summary>
+  
+  ```
+@inproceedings{jagadeesan2021alternative,
+  title={Alternative microfoundations for strategic classification},
+  author={Jagadeesan, Meena and Mendler-D{\"u}nner, Celestine and Hardt, Moritz},
+  booktitle={International Conference on Machine Learning},
+  pages={4687--4697},
+  year={2021},
+  organization={PMLR}
+}
+```
+
+</details>
