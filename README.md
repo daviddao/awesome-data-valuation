@@ -244,7 +244,6 @@ Jia et al. (2019) present algorithms to compute the Shapley value exactly in qua
 Kwon et al. (2021) develop tractable analytic expressions for the distributional data Shapley value for linear regression, binary classification, and non-parametric density estimation as well as new efficient methods for its estimation.
 </details>
 
-
 <details>
   <summary>Bibtex</summary>
   
@@ -264,6 +263,11 @@ Kwon et al. (2021) develop tractable analytic expressions for the distributional
 #### Benchmarks, Criticism & Relaxations
 
 [Scalability vs. Utility: Do We Have to Sacrifice One for the Other in Data Importance Quantification?](https://arxiv.org/abs/1911.07128), Ruoxi Jia, Fan Wu, Xuehui Sun, Jiacen Xu, David Dao, Bhavya Kailkhura, Ce Zhang, Bo Li, Dawn Song, 2021, [💻](https://github.com/AI-secure/Shapley-Study)
+
+<details>
+  <summary>Summary</summary>
+Jia et al. (2021) perform a theoretical analysis on the differences between leave-one-out-based and Shapley value-based methods as well as an empirical study across several ML tasks investigating the two aforementioned methods as well as exact Shapley value-based methods and Shapley over KNN Surrogates.
+</details>
 
 <details>
   <summary>Bibtex</summary>
