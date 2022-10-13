@@ -356,7 +356,12 @@ Koh et al. (2019) study influence functions to measure effects of large groups o
 
 ### Reinforcement Learning
 
-[Data Valuation using Reinforcement Learning](https://proceedings.mlr.press/v119/yoon20a.html), Jinsung Yoon Sercan Arik Tomas Pfister, 2020, [💻](https://github.com/google-research/google-research/tree/master/dvrl), [🎥](https://icml.cc/media/icml-2020/Slides/6276.pdf)
+[Data Valuation using Reinforcement Learning](https://proceedings.mlr.press/v119/yoon20a.html), Jinsung Yoon, Sercan Ö Arık, Tomas Pfister, 2020, [💻](https://github.com/google-research/google-research/tree/master/dvrl), [🎥](https://icml.cc/media/icml-2020/Slides/6276.pdf)
+
+<details>
+  <summary>Summary</summary>
+Yoon et al. (2020) propose using reinforcement learning for data valuation to learn data values jointly with the predictor model. 
+</details>
 
 <details>
   <summary>Bibtex</summary>
