@@ -9,6 +9,33 @@
 
 🎥 Talk / Slides
 
+## Contents
+
+| Table of Contents |
+| --- |
+| [1. What is your data worth? (DV Algorithms)](#what-is-your-data-worth) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.1. Shapley Value & Cooperative Game Theory](#shapley-value--cooperative-game-theory) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.1. Efficient algorithms](#efficient-algorithms) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.2. Benchmarks, Criticism & Relaxations](#benchmarks-criticism--relaxations) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.2. Influence functions & LOO](#influence-functions--loo) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.3. Reinforcement Learning](#reinforcement-learning) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.4. Deep Neural Networks](#deep-neural-networks) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.5. Out-of-Bag score](#out-of-bag-score) |
+| [2. Benchmarks](#benchmarks) |
+| [3. Libraries](#libraries) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Surveys](#surveys) |
+| [4. Designing data marketplaces](#designing-data-marketplaces) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[4.1. Data market system designs](#data-market-system-designs) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[4.2. Automatic data compliance](#automatic-data-compliance) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[4.3. Data valuation applications](#data-valuation-applications) |
+| [5. Data markets and society](#data-markets-and-society) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[5.1. Economics of Data](#economics-of-data) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[5.2. Data Dignity](#data-dignity) |
+| [6. Strategic adaptation](#strategic-adaptation) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[6.1. Performative prediction](#performative-prediction) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[6.2. Strategic classification](#strategic-classification) |
+| [7. Data Valuation Researchers](#data-valuation-researchers) |
+
 
 ## What is your data worth?
 
@@ -150,3 +177,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [Strategic Classification is Causal Modeling in Disguise](http://proceedings.mlr.press/v119/miller20b) | John Miller, Smitha Milli, Moritz Hardt | 2020 | <details><summary>Summary</summary> Miller et al. (2020) argue that strategic classication involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation. </details> | <details><summary>Bibtex</summary><pre>@inproceedings{miller2020strategic,<br>  title={Strategic classification is causal modeling in disguise},<br>  author={Miller, John and Milli, Smitha and Hardt, Moritz},<br>  booktitle={International Conference on Machine Learning},<br>  pages={6917--6926},<br>  year={2020},<br>  organization={PMLR}<br>}</pre> </details> | | |
 | [Alternative Microfoundations for Strategic Classification](http://proceedings.mlr.press/v139/jagadeesan21a) | Meena Jagadeesan, Celestine Mendler-Dünner, Moritz Hardt | 2021 | <details> <summary>Summary</summary> Jagadeesan et al. (2021) show that standard microfoundations in strategic classification, that typically uses individual-level behaviour to deduce aggregate-level responses, can lead to degenerate behaviour in aggregate: discontinuities in the aggregate response, stable points ceasing to exist, and maximizing social burden. The authors introduce a noisy response model inspired by performative prediction that mitigates these limitations for binary classification. </details> | <details><summary>Bibtex</summary><pre>@inproceedings{jagadeesan2021alternative,<br>  title={Alternative microfoundations for strategic classification},<br>  author={Jagadeesan, Meena and Mendler-D{\"u}nner, Celestine and Hardt, Moritz},<br>  booktitle={International Conference on Machine Learning},<br>  pages={4687--4697},<br>  year={2021},<br>  organization={PMLR}<br>}</pre></details> | | |
+
+
+## Data Valuation Researchers
+
