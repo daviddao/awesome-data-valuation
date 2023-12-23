@@ -181,3 +181,54 @@
 
 ## Data Valuation Researchers
 
+| Name | Institute | h-index |
+|------|-----------|---------|
+| [Costas Spanos](https://scholar.google.com/citations?hl=en&user=90TaOdoAAAAJ) | University of California, Berkeley | 61 |
+| [Jinsung Yoon](https://scholar.google.com/citations?hl=en&user=kiFd6A8AAAAJ) | Google Cloud AI | 33 |
+| [Tomas Pfister](https://scholar.google.com/citations?hl=en&user=ahSpJOAAAAAJ) | Google Cloud AI | 39 |
+| [Amirata Ghorbani](https://scholar.google.com/citations?hl=en&user=BtgIFycAAAAJ) | Stanford | 18 |
+| [James Zou](https://scholar.google.com/citations?hl=en&user=23ZXZvEAAAAJ) | Stanford | 64 |
+| [Nektaria Tryfona](https://scholar.google.com/citations?hl=en&user=l8oLKs8AAAAJ) | Virginia Tech | 27 |
+| [Rachael Hwee Ling Sim](https://scholar.google.com/citations?hl=en&user=OSpv414AAAAJ) | National University of Singapore | 4 |
+| [Bryan Kian Hsiang Low](https://scholar.google.com/citations?hl=en&user=2P-Q09UAAAAJ) | National University of Singapore | 38 |
+| [Dawn Song](https://scholar.google.com/citations?hl=en&user=84WzBlYAAAAJ) | University of California, Berkeley | 142 |
+| [Zhaoxuan Wu](https://scholar.google.com/citations?hl=en&user=Th_mPm8AAAAJ) | National University of Singapore | 4 |
+| [Xinyi Xu](https://scholar.google.com/citations?user=2762GgsAAAAJ&hl=en) | National University of Singapore | 8 |
+| [Tianhao Wang](https://scholar.google.com/citations?hl=en&user=TkgyXGwAAAAJ) | University of Virginia | 18 |
+| [José González Cabañas](https://scholar.google.com/citations?hl=en&user=NZQ0lL8AAAAJ) | UC3M-Santander Big Data Institute | 7 |
+| [Ruben Cuevas Rumin](https://scholar.google.com/citations?hl=en&user=lGuDTyAAAAAJ) | Universidad Carlos III de Madrid | 26 |
+| [Jiachen T. Wang](https://scholar.google.com/citations?hl=en&user=nvQOtgkAAAAJ) | Princeton University | 9 |
+| [Bohong Wang](https://scholar.google.com/citations?hl=en&user=NTUthMMAAAAJ) | Tsinghua University | 6 |
+| [Yongchan Kwon](https://scholar.google.com/citations?hl=en&user=PElI4ikAAAAJ) | Columbia University | 10 |
+| [Siyi Tang](https://scholar.google.com/citations?hl=en&user=dpRSfnoAAAAJ) | Artera | 8 |
+| [Li Xiong](https://scholar.google.com/citations?hl=en&user=jJ8BLgsAAAAJ) | Emory University | 52 |
+| [Jessica Vitak](https://scholar.google.com/citations?user=RC9bN7kAAAAJ&hl=en) | University of Maryland | 49 |
+| [Katie Chamberlain Kritikos](https://scholar.google.com/citations?hl=en&user=GzaVacsAAAAJ) | University of Illinois at Urbana-Champaign | 6 |
+| [Zhenan Fan](https://scholar.google.com/citations?hl=en&user=un31cHUAAAAJ) | Huawei Technologies Canada | 6 |
+| [Shuyue Wei](https://scholar.google.com/citations?hl=en&user=JH1mkD4AAAAJ) | Beihang University | 4 |
+| [Hannah Stein](https://scholar.google.com/citations?hl=en&user=H1dRqaMAAAAJ) | Saarland University | 3 |
+| [Wolfgang Maass](https://scholar.google.com/citations?hl=en&user=v1qq9joAAAAJ) | Saarland University | 26 |
+| [Mohammad Mohammadi Amiri](https://scholar.google.com/citations?hl=en&user=jpJy6SEAAAAJ) | Rensselaer Polytechnic Institute | 18 |
+| [Ramesh Raskar](https://scholar.google.com/citations?hl=en&user=8hpOmVgAAAAJ) | MIT | 103 |
+| [Konstantin D. Pandl](https://scholar.google.com/citations?hl=en&user=hcn6_a8AAAAJ) | Karlsruhe Institute of Technolgoy | 6 |
+| [Ali Sunyaev](https://scholar.google.com/citations?hl=en&user=Uc8sVecAAAAJ) | Karlsruhe Institute of Technolgoy | 43 |
+| [Ludovico Boratto](https://scholar.google.com/citations?hl=en&user=1unjC10AAAAJ) | University of Cagliari | 25 |
+| [han xiao](https://scholar.google.com/citations?hl=en&user=ZBibCxIAAAAJ) | | 70 |
+| [Junjie Wu](https://scholar.google.com/citations?hl=en&user=mLZcym8AAAAJ) | Center for High Pressure Science & Technology Advanced Research | 55 |
+| [Xiao Tian](https://scholar.google.com/citations?hl=en&user=FdGSDcQAAAAJ) | National University of Singapore | 1 |
+| [Kean Birch](https://scholar.google.com/citations?hl=en&user=wKYYL5MAAAAJ) | Institute for Technoscience & Society | 40 |
+| [Callum Ward](https://scholar.google.com/citations?hl=en&user=icnaSlUAAAAJ) | Uppsala University | 10 |
+| [Praveer Singh](https://scholar.google.com/citations?hl=en&user=12RkAfQAAAAJ) | University of Colorado School of Medicine | 19 |
+| [Anran Xu](https://scholar.google.com/citations?hl=en&user=ptQB7KEAAAAJ) | Shanghai Jiao Tong University | 2 |
+| [Guihai Chen](https://scholar.google.com/citations?hl=en&user=rqZWbYgAAAAJ) | | 67 |
+| [Andre Esteva](https://scholar.google.com/citations?hl=en&user=MN8r_gMAAAAJ) | Co-Founder & CEO, Artera | 23 |
+| [Prateek Mittal](https://scholar.google.com/citations?hl=en&user=xTKD8J4AAAAJ) | Princeton University | 55 |
+| [Hyeontaek Oh](https://scholar.google.com/citations?hl=en&user=iTt4_Z0AAAAJ) | Institute for IT Convergence | 9 |
+| [Lingjiao Chen](https://scholar.google.com/citations?hl=en&user=1rPi_78AAAAJ) | Stanford | 13 |
+| [Xiangyu Chang](https://scholar.google.com/citations?hl=en&user=IWIQ64YAAAAJ) | Xi'an Jiaotong University | 17 |
+| [Hoang Anh Just](https://scholar.google.com/citations?hl=en&user=XcBDQhAAAAAJ) | Virginia Tech | 3 |
+| [David Dao](https://scholar.google.com/citations?hl=en&user=XHeNA_8AAAAJ) | ETH | 13 |
+| [Mark Mazumder](https://scholar.google.com/citations?hl=en&user=kM8TYfoAAAAJ) | Harvard | 12 |
+| [Vijay Janapa Reddi](https://scholar.google.com/citations?hl=en&user=gy4UVGcAAAAJ) | Harvard | 46 |
+| [Sabri Eyuboglu](https://scholar.google.com/citations?hl=en&user=ya1egC8AAAAJ) | Stanford | 6 |
+| [Wenqian Li](https://scholar.google.com/citations?hl=en&user=QO3W0sMAAAAJ) | National University of Singapore | 2 |
