@@ -9,6 +9,34 @@
 
 🎥 Talk / Slides
 
+## Contents
+
+| Table of Contents |
+| --- |
+| [1. What is your data worth? (DV Algorithms)](#what-is-your-data-worth) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.1. Shapley Value & Cooperative Game Theory](#shapley-value--cooperative-game-theory) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.1. Efficient algorithms](#efficient-algorithms) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.2. Benchmarks, Criticism & Relaxations](#benchmarks-criticism--relaxations) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.2. Influence functions & LOO](#influence-functions--loo) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.3. Reinforcement Learning](#reinforcement-learning) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.4. Deep Neural Networks](#deep-neural-networks) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.5. Out-of-Bag score](#out-of-bag-score) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[1.6. Task Agnostic](#task-agnostic) |
+| [2. Benchmarks](#benchmarks) |
+| [3. Libraries](#libraries) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Surveys](#surveys) |
+| [4. Designing data marketplaces](#designing-data-marketplaces) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[4.1. Data market system designs](#data-market-system-designs) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[4.2. Automatic data compliance](#automatic-data-compliance) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[4.3. Data valuation applications](#data-valuation-applications) |
+| [5. Data markets and society](#data-markets-and-society) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[5.1. Economics of Data](#economics-of-data) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[5.2. Data Dignity](#data-dignity) |
+| [6. Strategic adaptation](#strategic-adaptation) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[6.1. Performative prediction](#performative-prediction) |
+| &nbsp;&nbsp;&nbsp;&nbsp;[6.2. Strategic classification](#strategic-classification) |
+| [7. Data Valuation Researchers](#data-valuation-researchers) |
+
 
 ## What is your data worth?
 
@@ -36,6 +64,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms](https://arxiv.org/abs/1908.08619) | Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel, Bo Li, Ce Zhang, Costas J. Spanos, Dawn Song | 2019 | <details><summary>Summary</summary> Jia et al. (2019) present algorithms to compute the Shapley value exactly in quasi-linear time and approximations in sublinear time for k-nearest-neighbor models. They empirically evaluate their algorithms at scale and extend them to several other settings. </details> | <details><summary>Bibtex</summary><pre>@article{jia12efficient,<br>  title={Efficient Task-Specific Data Valuation for Nearest Neighbor Algorithms},<br>  author={Jia, Ruoxi and Dao, David and Wang, Boxin and Hubis, Frances Ann and Gurel, Nezihe Merve and Zhang, Bo Li4 Ce and Song, Costas Spanos1 Dawn},<br>  journal={Proceedings of the VLDB Endowment},<br>  volume={12},<br>  number={11}<br>}</pre></details> | [💻](https://github.com/easeml/datascope) | |
 | [Efficient computation and analysis of distributional Shapley values](https://arxiv.org/abs/2007.01357) | Yongchan Kwon, Manuel A. Rivas, James Zou | 2021 | <details><summary>Summary</summary> Kwon et al. (2021) develop tractable analytic expressions for the distributional data Shapley value for linear regression, binary classification, and non-parametric density estimation as well as new efficient methods for its estimation. </details> | <details><summary>Bibtex</summary><pre>@inproceedings{kwon2021efficient,<br>  title={Efficient computation and analysis of distributional Shapley values},<br>  author={Kwon, Yongchan and Rivas, Manuel A and Zou, James},<br>  booktitle={International Conference on Artificial Intelligence and Statistics},<br>  pages={793--801},<br>  year={2021},<br>  organization={PMLR}<br>}</pre></details> | [💻](https://github.com/ykwon0407/fast_dist_shapley) | |
+
 
 #### Benchmarks, Criticism & Relaxations
 
@@ -71,6 +100,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [Data-OOB: Out-of-bag Estimate as a Simple and Efficient Data Value](https://arxiv.org/abs/2304.07718) | Yongchan Kwon, James Zou | 2023 | <details><summary>Summary</summary> Kwon et al. (2023) propose using the out-of-bag estimate of a bagging estimator for computationally efficient data valuation. </details> | <details><summary>Bibtex</summary><pre>@inproceedings{DBLP:conf/icml/Kwon023, <br>    author={Yongchan Kwon and James Zou}, <br>    editor={Andreas Krause and Emma Brunskill and Kyunghyun Cho and Barbara Engelhardt and Sivan Sabato and Jonathan Scarlett},<br>    title={Data-OOB: Out-of-bag Estimate as a Simple and Efficient Data Value},<br>    booktitle={International Conference on Machine Learning, {ICML} 2023, 23-29 July 2023, Honolulu, Hawaii, {USA}}, <br>    series={Proceedings of Machine Learning Research}, <br>    volume={202}, <br>    pages={18135--18152},<br>    publisher={{PMLR}}, <br>    year={2023}, <br>    url={https://proceedings.mlr.press/v202/kwon23e.html}, <br>    timestamp={Mon, 28 Aug 2023 17:23:08 +0200}, <br>    biburl={https://dblp.org/rec/conf/icml/Kwon023.bib}, <br>    bibsource={dblp computer science bibliography, https://dblp.org} <br>}</pre></details> | [💻](https://github.com/ykwon0407/STAT5206_Fall_2023) | [🎥](https://icml.cc/virtual/2023/poster/23689) |
 
+### Task Agnostic
+| | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Fundamentals of Task-Agnostic Data Valuation](https://ojs.aaai.org/index.php/AAAI/article/view/26106) | Mohammad Mohammadi Amiri, Frederic Berdoz, Ramesh Raskar | 2023 | <details><summary>Summary</summary>This paper addresses the challenge of valuing data without specific task assumptions, focusing on task-agnostic data valuation. It discusses valuing a data seller's dataset from a buyer's perspective without validation requirements. The approach involves estimating statistical differences through diversity and relevance measures without needing the raw data, and designing queries that maintain the seller's blindness to the buyer's raw data. The work is significant for practical scenarios where utility metrics like test accuracy on a validation set are not feasible.</details> | <details><summary>Bibtex</summary><pre>@article{Amiri2023FundamentalsOT,<br>  title={Fundamentals of Task-Agnostic Data Valuation},<br>  author={Mohammad Mohammadi Amiri and Frederic Berdoz and Ramesh Raskar},<br>  journal={Proceedings of the AAAI Conference on Artificial Intelligence},<br>  volume={37},<br>  pages={9226-9234},<br>  year={2023},<br>  doi={10.1609/aaai.v37i8.26106}<br>}</pre></details> | | |
 
 ## Benchmarks
 
@@ -104,6 +137,8 @@
 | [Computing a Data Dividend](https://arxiv.org/abs/1905.01805) | Eric Bax | 2019 | | <details><summary>Bibtex</summary><pre>@misc{bax2019computing,<br>      title={Computing a Data Dividend}, <br>      author={Eric Bax},<br>      year={2019},<br>      eprint={1905.01805},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.GT}<br>}</pre></details> | | |
 | [Incentivizing Collaboration in Machine Learning via Synthetic Data Rewards](https://arxiv.org/pdf/2112.09327.pdf) | Sebastian Shenghong Tay, Xinyi Xu, Chuan Sheng Foo, Bryan Kian Hsiang Low | 2021 | | <details><summary>Bibtex</summary><pre>@article{tay2021incentivizing,<br>  title={Incentivizing Collaboration in Machine Learning via Synthetic Data Rewards},<br>  author={Tay, Sebastian Shenghong and Xu, Xinyi and Foo, Chuan Sheng and Low, Bryan Kian Hsiang},<br>  journal={arXiv preprint arXiv:2112.09327},<br>  year={2021}<br>}</pre></details> | | |
 
+
+
 ### Automatic data compliance
 
 | | | | | | | |
@@ -116,7 +151,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [A Principled Approach to Data Valuation for Federated Learning](https://arxiv.org/abs/2009.06192) | Tianhao Wang, Johannes Rausch, Ce Zhang, Ruoxi Jia, Dawn Song | 2020 | | <details><summary>Bibtex</summary><pre>@misc{wang2020principled,<br>      title={A Principled Approach to Data Valuation for Federated Learning}, <br>      author={Tianhao Wang and Johannes Rausch and Ce Zhang and Ruoxi Jia and Dawn Song},<br>      year={2020},<br>      eprint={2009.06192},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.LG}<br>}</pre></details> | | |
 | [Data valuation for medical imaging using Shapley value and application to a large-scale chest X-ray dataset](https://www.nature.com/articles/s41598-021-87762-2) | Siyi Tang, Amirata Ghorbani, Rikiya Yamashita, Sameer Rehman, Jared A Dunnmon, James Zou, Daniel L Rubin | 2021 | | <details><summary>Bibtex</summary><pre>@article{tang2021data,<br>  title={Data valuation for medical imaging using Shapley value and application to a large-scale chest X-ray dataset},<br>  author={Tang, Siyi and Ghorbani, Amirata and Yamashita, Rikiya and Rehman, Sameer and Dunnmon, Jared A and Zou, James and Rubin, Daniel L},<br>  journal={Scientific reports},<br>  volume={11},<br>  number={1},<br>  pages={1--9},<br>  year={2021},<br>  publisher={Nature Publishing Group}<br>}</pre></details> | | |
-
+| [Efficient and Fair Data Valuation for Horizontal Federated Learning](https://link.springer.com/chapter/10.1007/978-3-030-63076-8_10) | Shuyue Wei, Yongxin Tong, Zimu Zhou, Tianshu Song | 2020 | <details><summary>Summary</summary>Availability of big data is crucial for modern machine learning applications and services. Federated learning is an emerging paradigm to unite different data owners for machine learning on massive data sets without worrying about data privacy. Yet data owners may still be reluctant to contribute unless their data sets are fairly valuated and paid. In this work, the authors adapt Shapley value, a widely used data valuation metric to valuating data providers in federated learning. Prior data valuation schemes for machine learning incur high computation cost because they require training of extra models on all data set combinations. For efficient data valuation, the authors approximately construct all the models necessary for data valuation using the gradients in training a single model, rather than train an exponential number of models from scratch. On this basis, they devise three methods for efficient contribution index estimation. Evaluations show that their methods accurately approximate the contribution index while notably accelerating its calculation.</details> | <details><summary>Bibtex</summary><pre>@inbook{wei2020efficient,<br>      title={Efficient and fair data valuation for horizontal federated learning}, <br>      author={Wei, Shuyue and Tong, Yongxin and Zhou, Zimu and Song, Tianshu},<br>      year={2020},<br>      booktitle={Federated Learning: Privacy and Incentive},<br>      pages={139--152},<br>      publisher={Springer}<br>}</pre></details> | | |
+| [Improving Fairness for Data Valuation in Horizontal Federated Learning](https://ar5iv.org/pdf/2109.09046) | Zhenan Fan, Huang Fang, Zirui Zhou, Jian Pei, Michael P. Friedlander, Changxin Liu, Yong Zhang | 2020 | <details><summary>Summary</summary>Federated learning is an emerging decentralized machine learning scheme that allows multiple data owners to work collaboratively while ensuring data privacy. This paper focuses on fairness in data valuation within federated learning. The authors propose a new measure called completed federated Shapley value to improve the fairness of federated Shapley value. This approach leverages the concepts and tools from optimization and provides both theoretical analysis and empirical evaluation to verify the improvement in fairness.</details> | <details><summary>Bibtex</summary><pre>@misc{fan2020improving,<br>      title={Improving Fairness for Data Valuation in Horizontal Federated Learning}, <br>      author={Zhenan Fan and Huang Fang and Zirui Zhou and Jian Pei and Michael P. Friedlander and Changxin Liu and Yong Zhang},<br>      year={2020},<br>      eprint={2109.09046},<br>      archivePrefix={arXiv},<br>      primaryClass={cs.LG}<br>}</pre></details> | | |
+| [Data Valuation for Vertical Federated Learning: An Information-Theoretic Approach](https://paperswithcode.com/paper/data-valuation-for-vertical-federated) | Xiao Han, Leye Wang, Junjie Wu | 2021 | <details><summary>Summary</summary>Federated learning (FL) is a machine learning paradigm that enables privacy-preserving cross-party data collaboration. This work introduces "FedValue," the first privacy-preserving, task-specific, model-free data valuation method for vertical FL tasks. It incorporates Shapley-CMI, an information-theoretic metric, for assessing data values from a game-theoretic perspective. The paper also proposes a novel server-aided federated computation mechanism and techniques to accelerate Shapley-CMI computation. Extensive experiments demonstrate the effectiveness and efficiency of FedValue.</details> | <details><summary>Bibtex</summary><pre>@misc{han2021datavaluation,<br>      title={Data Valuation for Vertical Federated Learning: An Information-Theoretic Approach}, <br>      author={Xiao Han and Leye Wang and Junjie Wu},<br>      year={2021},<br>      eprint={URL or DOI link TBD},<br>}</pre></details> | | |
+| [Towards More Efficient Data Valuation in Healthcare Federated Learning Using Ensembling](https://ar5iv.org/abs/2209.05424) | Sourav Kumar, A. Lakshminarayanan, Ken Chang, Feri Guretno, Ivan Ho Mien, Jayashree Kalpathy-Cramer, Pavitra Krishnaswamy, Praveer Singh | 2021 | <details><summary>Summary</summary>This paper addresses the challenge of data valuation in federated learning within healthcare. The authors propose a method called SaFE (Shapley Value for Federated Learning using Ensembling), which is designed to be efficient in settings where the number of contributing institutions is manageable. SaFE approximates the Shapley value using gradients from training a single model and develops methods for efficient contribution index estimation. This approach is particularly relevant in medical imaging where data heterogeneity is common and fast, accurate data valuation is necessary for multi-institutional collaborations.</details> | <details><summary>Bibtex</summary><pre>@article{Kumar2021TowardsME,<br>  title={Towards More Efficient Data Valuation in Healthcare Federated Learning Using Ensembling},<br>  author={Sourav Kumar and A. Lakshminarayanan and Ken Chang and Feri Guretno and Ivan Ho Mien and Jayashree Kalpathy-Cramer and Pavitra Krishnaswamy and Praveer Singh},<br>  journal={ArXiv},<br>  year={2021},<br>  volume={abs/2209.05424}<br>}</pre></details> | | |
 
 ## Data markets and society
 
@@ -150,3 +188,58 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [Strategic Classification is Causal Modeling in Disguise](http://proceedings.mlr.press/v119/miller20b) | John Miller, Smitha Milli, Moritz Hardt | 2020 | <details><summary>Summary</summary> Miller et al. (2020) argue that strategic classication involves causal modelling and designing incentives for improvement requires solving a non-trivial causal inference problem. The authors provide a distinction between gaming and improvement as well as provide a causal framework for strategic adaptation. </details> | <details><summary>Bibtex</summary><pre>@inproceedings{miller2020strategic,<br>  title={Strategic classification is causal modeling in disguise},<br>  author={Miller, John and Milli, Smitha and Hardt, Moritz},<br>  booktitle={International Conference on Machine Learning},<br>  pages={6917--6926},<br>  year={2020},<br>  organization={PMLR}<br>}</pre> </details> | | |
 | [Alternative Microfoundations for Strategic Classification](http://proceedings.mlr.press/v139/jagadeesan21a) | Meena Jagadeesan, Celestine Mendler-Dünner, Moritz Hardt | 2021 | <details> <summary>Summary</summary> Jagadeesan et al. (2021) show that standard microfoundations in strategic classification, that typically uses individual-level behaviour to deduce aggregate-level responses, can lead to degenerate behaviour in aggregate: discontinuities in the aggregate response, stable points ceasing to exist, and maximizing social burden. The authors introduce a noisy response model inspired by performative prediction that mitigates these limitations for binary classification. </details> | <details><summary>Bibtex</summary><pre>@inproceedings{jagadeesan2021alternative,<br>  title={Alternative microfoundations for strategic classification},<br>  author={Jagadeesan, Meena and Mendler-D{\"u}nner, Celestine and Hardt, Moritz},<br>  booktitle={International Conference on Machine Learning},<br>  pages={4687--4697},<br>  year={2021},<br>  organization={PMLR}<br>}</pre></details> | | |
+
+
+## Data Valuation Researchers
+
+| Name | Institute | h-index |
+|------|-----------|---------|
+| [Costas Spanos](https://scholar.google.com/citations?hl=en&user=90TaOdoAAAAJ) | University of California, Berkeley | 61 |
+| [Jinsung Yoon](https://scholar.google.com/citations?hl=en&user=kiFd6A8AAAAJ) | Google Cloud AI | 33 |
+| [Tomas Pfister](https://scholar.google.com/citations?hl=en&user=ahSpJOAAAAAJ) | Google Cloud AI | 39 |
+| [Amirata Ghorbani](https://scholar.google.com/citations?hl=en&user=BtgIFycAAAAJ) | Stanford | 18 |
+| [James Zou](https://scholar.google.com/citations?hl=en&user=23ZXZvEAAAAJ) | Stanford | 64 |
+| [Nektaria Tryfona](https://scholar.google.com/citations?hl=en&user=l8oLKs8AAAAJ) | Virginia Tech | 27 |
+| [Rachael Hwee Ling Sim](https://scholar.google.com/citations?hl=en&user=OSpv414AAAAJ) | National University of Singapore | 4 |
+| [Bryan Kian Hsiang Low](https://scholar.google.com/citations?hl=en&user=2P-Q09UAAAAJ) | National University of Singapore | 38 |
+| [Dawn Song](https://scholar.google.com/citations?hl=en&user=84WzBlYAAAAJ) | University of California, Berkeley | 142 |
+| [Zhaoxuan Wu](https://scholar.google.com/citations?hl=en&user=Th_mPm8AAAAJ) | National University of Singapore | 4 |
+| [Xinyi Xu](https://scholar.google.com/citations?user=2762GgsAAAAJ&hl=en) | National University of Singapore | 8 |
+| [Tianhao Wang](https://scholar.google.com/citations?hl=en&user=TkgyXGwAAAAJ) | University of Virginia | 18 |
+| [José González Cabañas](https://scholar.google.com/citations?hl=en&user=NZQ0lL8AAAAJ) | UC3M-Santander Big Data Institute | 7 |
+| [Ruben Cuevas Rumin](https://scholar.google.com/citations?hl=en&user=lGuDTyAAAAAJ) | Universidad Carlos III de Madrid | 26 |
+| [Jiachen T. Wang](https://scholar.google.com/citations?hl=en&user=nvQOtgkAAAAJ) | Princeton University | 9 |
+| [Bohong Wang](https://scholar.google.com/citations?hl=en&user=NTUthMMAAAAJ) | Tsinghua University | 6 |
+| [Yongchan Kwon](https://scholar.google.com/citations?hl=en&user=PElI4ikAAAAJ) | Columbia University | 10 |
+| [Siyi Tang](https://scholar.google.com/citations?hl=en&user=dpRSfnoAAAAJ) | Artera | 8 |
+| [Li Xiong](https://scholar.google.com/citations?hl=en&user=jJ8BLgsAAAAJ) | Emory University | 52 |
+| [Jessica Vitak](https://scholar.google.com/citations?user=RC9bN7kAAAAJ&hl=en) | University of Maryland | 49 |
+| [Katie Chamberlain Kritikos](https://scholar.google.com/citations?hl=en&user=GzaVacsAAAAJ) | University of Illinois at Urbana-Champaign | 6 |
+| [Zhenan Fan](https://scholar.google.com/citations?hl=en&user=un31cHUAAAAJ) | Huawei Technologies Canada | 6 |
+| [Shuyue Wei](https://scholar.google.com/citations?hl=en&user=JH1mkD4AAAAJ) | Beihang University | 4 |
+| [Hannah Stein](https://scholar.google.com/citations?hl=en&user=H1dRqaMAAAAJ) | Saarland University | 3 |
+| [Wolfgang Maass](https://scholar.google.com/citations?hl=en&user=v1qq9joAAAAJ) | Saarland University | 26 |
+| [Mohammad Mohammadi Amiri](https://scholar.google.com/citations?hl=en&user=jpJy6SEAAAAJ) | Rensselaer Polytechnic Institute | 18 |
+| [Ramesh Raskar](https://scholar.google.com/citations?hl=en&user=8hpOmVgAAAAJ) | MIT | 103 |
+| [Konstantin D. Pandl](https://scholar.google.com/citations?hl=en&user=hcn6_a8AAAAJ) | Karlsruhe Institute of Technolgoy | 6 |
+| [Ali Sunyaev](https://scholar.google.com/citations?hl=en&user=Uc8sVecAAAAJ) | Karlsruhe Institute of Technolgoy | 43 |
+| [Ludovico Boratto](https://scholar.google.com/citations?hl=en&user=1unjC10AAAAJ) | University of Cagliari | 25 |
+| [han xiao](https://scholar.google.com/citations?hl=en&user=ZBibCxIAAAAJ) | | 70 |
+| [Junjie Wu](https://scholar.google.com/citations?hl=en&user=mLZcym8AAAAJ) | Center for High Pressure Science & Technology Advanced Research | 55 |
+| [Xiao Tian](https://scholar.google.com/citations?hl=en&user=FdGSDcQAAAAJ) | National University of Singapore | 1 |
+| [Kean Birch](https://scholar.google.com/citations?hl=en&user=wKYYL5MAAAAJ) | Institute for Technoscience & Society | 40 |
+| [Callum Ward](https://scholar.google.com/citations?hl=en&user=icnaSlUAAAAJ) | Uppsala University | 10 |
+| [Praveer Singh](https://scholar.google.com/citations?hl=en&user=12RkAfQAAAAJ) | University of Colorado School of Medicine | 19 |
+| [Anran Xu](https://scholar.google.com/citations?hl=en&user=ptQB7KEAAAAJ) | Shanghai Jiao Tong University | 2 |
+| [Guihai Chen](https://scholar.google.com/citations?hl=en&user=rqZWbYgAAAAJ) | | 67 |
+| [Andre Esteva](https://scholar.google.com/citations?hl=en&user=MN8r_gMAAAAJ) | Co-Founder & CEO, Artera | 23 |
+| [Prateek Mittal](https://scholar.google.com/citations?hl=en&user=xTKD8J4AAAAJ) | Princeton University | 55 |
+| [Hyeontaek Oh](https://scholar.google.com/citations?hl=en&user=iTt4_Z0AAAAJ) | Institute for IT Convergence | 9 |
+| [Lingjiao Chen](https://scholar.google.com/citations?hl=en&user=1rPi_78AAAAJ) | Stanford | 13 |
+| [Xiangyu Chang](https://scholar.google.com/citations?hl=en&user=IWIQ64YAAAAJ) | Xi'an Jiaotong University | 17 |
+| [Hoang Anh Just](https://scholar.google.com/citations?hl=en&user=XcBDQhAAAAAJ) | Virginia Tech | 3 |
+| [David Dao](https://scholar.google.com/citations?hl=en&user=XHeNA_8AAAAJ) | ETH | 13 |
+| [Mark Mazumder](https://scholar.google.com/citations?hl=en&user=kM8TYfoAAAAJ) | Harvard | 12 |
+| [Vijay Janapa Reddi](https://scholar.google.com/citations?hl=en&user=gy4UVGcAAAAJ) | Harvard | 46 |
+| [Sabri Eyuboglu](https://scholar.google.com/citations?hl=en&user=ya1egC8AAAAJ) | Stanford | 6 |
+| [Wenqian Li](https://scholar.google.com/citations?hl=en&user=QO3W0sMAAAAJ) | National University of Singapore | 2 |
